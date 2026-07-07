@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:8080/api",
+  baseURL: "https://telemed-backend-w06s.onrender.com",
 });
 
 export default api;
