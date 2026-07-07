@@ -35,9 +35,9 @@ function Chata() {
     if (!message.trim()) return;
 
     try {
-      const response = await api.post("/chat", {
-        message: message,
-      });
+      const response = await api.post("/api/chat", {
+  message: message,
+});
 
       setReply(response.data.response);
 
